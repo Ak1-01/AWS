@@ -1,0 +1,136 @@
+Script started on 2026-10-26 20:25:12+00:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="59" LINES="28"]
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ mkdir test_dir
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls
+[?2004lassignment_linux.txt  assignment_output.txt  [0m[01;34mtest_dir[0m
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ o[Ktouch example.txt
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls
+[?2004lassignment_linux.txt   example.txt
+assignment_output.txt  [0m[01;34mtest_dir[0m
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ cd[K[Krm example.txt
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls
+[?2004lassignment_linux.txt  assignment_output.txt  [0m[01;34mtest_dir[0m
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ cd [K[K[Kpwd
+[?2004l/home/ak/Linux_Basics_Ak
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ cd /home/ak/Lini[Kux_Basics_Ak/test_dir
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ touch ec[Kxam;[Kpl e.txt
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ ls
+[?2004lexample.txt
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ mv example.t xy[Kt remamed_exxa[K[Kample.y[Ktxt
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ ls
+[?2004lremamed_example.txt
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ mv remamed_example.txt renamed_example.txt
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ ls
+[?2004lrenamed_example.txt
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ cat /etc/[as s[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kpaa [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs swd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:996:996:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+messagebus:x:995:995:System Message Bus:/nonexistent:/usr/sbin/nologin
+syslog:x:100:101::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:989:989:systemd Resolver:/:/usr/sbin/nologin
+_chrony:x:988:988:Chrony Daemon:/var/lib/chrony:/usr/sbin/nologin
+landscape:x:101:103::/var/lib/landscape:/usr/sbin/nologin
+polkitd:x:987:987:User for polkitd:/:/usr/sbin/nologin
+ak:x:1000:1000::/home/ak:/bin/bash
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ head -n 5 /e tc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ tai -n 5 /et c/passwd
+[?2004lCommand 'tai' not found, but there are 16 similar ones.
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ tai -n 5 /etc/passwd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl -n 5 /et[1@c[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ [C[C[C[C
+
+[?2004lsystemd-resolve:x:989:989:systemd Resolver:/:/usr/sbin/nologin
+_chrony:x:988:988:Chrony Daemon:/var/lib/chrony:/usr/sbin/nologin
+landscape:x:101:103::/var/lib/landscape:/usr/sbin/nologin
+polkitd:x:987:987:User for polkitd:/:/usr/sbin/nologin
+ak:x:1000:1000::/home/ak:/bin/bash
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ grep "root"  /etc/passwd
+[?2004l[01;31m[Kroot[m[K:x:0:0:[01;31m[Kroot[m[K:/[01;31m[Kroot[m[K:/bin/bash
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ zip -r testd ir.zi[[Kp test_dir
+[?2004l	zip warning: name not matched: test_dir
+
+zip error: Nothing to do! (try: zip -r testdir.zip . -i test_dir)
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak/test_dir[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak/test_dir[00m$ cd ,[K..
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ cd ..zip -r testdir.zip test_dir
+[?2004l  adding: test_dir/ (stored 0%)
+  adding: test_dir/renamed_example.txt (stored 0%)
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls
+[?2004lassignment_linux.txt   [0m[01;34mtest_dir[0m
+assignment_output.txt  [01;31mtestdir.zip[0m
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ unzip test_dir.zip -d  unzipped_dir
+[?2004lunzip:  cannot find or open test_dir.zip, test_dir.zip.zip or test_dir.zip.ZIP.
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ unzip test_dir.zip -d unzipped_dir[K[K[K[K[Kd_dir[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdir.zip -d u[1P[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ [C[C[C[C[C[C[C[C[C[C
+
+[?2004lArchive:  testdir.zip
+   creating: unzipped_dir/test_dir/
+ extracting: unzipped_dir/test_dir/renamed_example.txt  
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ld
+[?2004l/usr/bin/x86_64-linux-gnu-ld.bfd: no input files
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls
+[?2004lassignment_linux.txt   [0m[01;34mtest_dir[0m     [01;34munzipped_dir[0m
+assignment_output.txt  [01;31mtestdir.zip[0m
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ lsdunzip testdir.zip -d unzipped_dir[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ [C[C[C[C[C[C[C[C[C[C_dir.zip -d [1@u[C[C[C[C[C[C[C[C[C[C[C[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Czip -r testdir.zip test_dir[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Czip -r testdir.zip test_dir[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ grep "root" /etc/passwd[K[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ tail -n 5 /etc/passwd [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead -n 5 /etc/passwd [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv remamed_example.txt renamed_example.txt[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv example.txt remamed_example.txt[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch example.txtcd /home/ak/Linux_Basics_Ak/test_dir[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ pwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Plsrm example.txtls[Ktouch example.txtls[Kmkdir test_direxit[K[12@rmdir secure.tx[C[2Ptest_dirsecure.txtexit[Kmkdir test_dirls[Ktouch example.txtls[Krm example.txtls[Kpwdcd /home/ak/Linux_Basics_Ak/test_dir[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ [4Ptouch example.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv example.txt remamed_example.txt[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv remamed_example.txt renamed_example.txt[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /etc/passwdhead -n 5 /etc/passwd [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ptai
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl -n 5 /etc/passwd [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep "root" /etc/passwd[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ zip -r testdir.zip test_dir[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Czip -r testdir.zip test_dir[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cunzip test_dir.zip -d unzipped_dir[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwget [7mhttps://reqres.i[27m[7mn[27m[7m/api/users?page=2[27m[A]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ [C[C[C[C[Chttps://reqres.in/api/users?page=2
+[?2004l--2026-10-26 20:32:11--  https://reqres.in/api/users?page=2
+Resolving reqres.in (reqres.in)... 172.67.73.173, 104.26.10.213, 104.26.11.213, ...
+Connecting to reqres.in (reqres.in)|172.67.73.173|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1669 (1.6K) [application/json]
+Saving to: ‘users?page=2’
+
+users?page=2     0%       0  --.-KB/s                     users?page=2   100%   1.63K  --.-KB/s    in 0s            
+
+2026-10-26 20:32:11 (3.51 MB/s) - ‘users?page=2’ saved [1669/1669]
+
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls
+[?2004l assignment_linux.txt    [0m[01;34mtest_dir[0m      [01;34munzipped_dir[0m
+ assignment_output.txt   [01;31mtestdir.zip[0m  'users?page=2'
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ toucb[Kh secure.ey[K[Kyc[K[Ktxt
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls
+[?2004l assignment_linux.txt    [0m[01;34mtest_dir[0m      'users?page=2'
+ assignment_output.txt   [01;31mtestdir.zip[0m
+ secure.txt              [01;34munzipped_dir[0m
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ chmod 444 secur[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls -la secure.txt
+[?2004l-rw-r--r-- 1 ak ak 0 Oct 26 20:32 secure.txt
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ chmod 444 secure.txt
+[?2004l[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ ls[K[Kchmod 444 secure.txt[3Pls -la[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-r--r--r-- 1 ak ak 0 Oct 26 20:32 secure.txt
+[?2004h]0;ak@DESKTOP-BP4PUMM: ~/Linux_Basics_Ak[01;32mak@DESKTOP-BP4PUMM[00m:[01;34m~/Linux_Basics_Ak[00m$ exit
+[?2004lexit
+
+Script done on 2026-10-26 20:33:16+00:00 [COMMAND_EXIT_CODE="0"]
