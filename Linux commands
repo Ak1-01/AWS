@@ -1,0 +1,17 @@
+ script assignment_output.txt
+   84  rmdir rf test_dir
+   85  rmdir test_dir
+   86  rm -rf test_dir
+   87  rm -rf test_dir.zip
+   88  ls
+   89  rm -rf secure.txt
+   90  rm -rf 'users?page=2'
+   91  ls
+   92  rm -rf unzipped_dir
+   93  ls
+   94  script assignment_linux.txt
+   95  ls
+   96  code .
+   97  export MY_VAR="Hello,Linux!"
+   98  echo $MY_VAR
+   99  history
